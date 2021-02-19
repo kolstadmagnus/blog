@@ -92,7 +92,7 @@ TYPOGRAPHY
 /* phones */
 @media all and (max-width: 520px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
