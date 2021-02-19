@@ -85,21 +85,21 @@ TYPOGRAPHY
 /* desktop */
 @media all and (min-width: 1000px) {
   html {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 /* phones */
 @media all and (max-width: 520px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 /* BODY TEXT */
 p,
 li {
-  font-size: .94rem;
+  font-size: 1rem;
   line-height: 1.48;
   margin-bottom: 1em;
 }
