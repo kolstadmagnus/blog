@@ -156,7 +156,8 @@ b,
 i,
 span.medium,
 span.black,
-span.smcp {
+span.smcp,
+code {
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
@@ -218,10 +219,10 @@ h2 {
   font-variant: small-caps;
   text-transform: lowercase;
   font-size: .94em;
-  letter-spacing: .06em;
+  letter-spacing: .08em;
   margin-top: 1.6rem;
   margin-bottom: .35rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* subheading level 2 */
