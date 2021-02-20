@@ -39,7 +39,7 @@ GLOBAL STYLES
   font-feature-settings: "liga";
   font-feature-settings: "kern";
   font-family: source-serif-pro, charter;
-  color: #181818;
+  /* color: #181818; */
 }
 
 html {
