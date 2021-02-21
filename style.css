@@ -147,6 +147,8 @@ blockquote {
   hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
+  
+  hyphenate-limit-chars: 6 3 2;
 }
 
 /* don't hyphenate important words! */
