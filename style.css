@@ -201,9 +201,9 @@ h3 {
   font-weight: 800;
 }
 
-/* article & index subheadings */
+/* newspaper article & index subheadings */
 h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 1.8em 0 .5em 0;
   line-height: 1.36;
   font-weight: 700;
@@ -324,8 +324,7 @@ figure {
 }
 
 figure img {
-  min-width: 60%;
-  max-width: 100%;
+  width: 100%;
   max-height: 20em;
   margin: 0;
   padding: 0;
@@ -365,7 +364,7 @@ figcaption {
 
 .byline {
   border-bottom: 1px solid currentColor;
-  margin: 1rem 0 1.5rem 0;
+  margin: .5rem 0 1.5rem 0;
   padding-bottom: .4rem;
 }
 
@@ -386,10 +385,15 @@ p#signature,
   text-align: right;
   font-size: 0.9em;
   letter-spacing: 0.06em;
-  font-family: source-serif-pro;
 
   margin: 1.5em 0 0 0;
   padding: 0;
+}
+
+.byline p,
+.byline-after p {
+  font-family: source-sans-pro;
+  color: #454545;
 }
 
 .byline-after > p {
@@ -405,6 +409,7 @@ p#signature,
   .byline > p,
   .byline-after > p {
     text-align: left;
+    margin: 0;
   }
 }
 
