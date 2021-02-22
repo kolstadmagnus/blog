@@ -171,14 +171,6 @@ header h1 {
   border-bottom: 2px solid currentColor;
 }
 
-/* stay on one line on smaller screens! */
-@media all and (max-width: 520px) {
-  h1,
-  header h1 {
-    font-size: 1.4em;
-  }
-}
-
 /* subheading level 1 */
 h2 {
   font-variant: small-caps;
