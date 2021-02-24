@@ -1,7 +1,3 @@
-/* =============================
-CSS FOR STATIC BLOG
-============================= */
-
 /* imported fonts */
 @font-face {
   font-family: "Concourse T3 Index";
@@ -39,7 +35,7 @@ GLOBAL STYLES
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga";
   font-feature-settings: "kern";
-  font-family: source-serif-pro, charter;
+  font-family: charter, source-serif-pro;
   /* color: #181818; */
 }
 
