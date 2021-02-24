@@ -35,7 +35,7 @@ GLOBAL STYLES
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga";
   font-feature-settings: "kern";
-  font-family: charter, source-serif-pro;
+  font-family: source-serif-pro, charter;
   /* color: #181818; */
 }
 
@@ -99,7 +99,10 @@ li {
   font-size: 1rem;
   line-height: 1.48;
   margin-bottom: 1em;
+  font-family: charter;
 }
+
+
 
 /* CHARACTER STYLES */
 
@@ -107,7 +110,7 @@ span.medium { font-weight: 600 }
 span.black { font-weight: 900 }
 
 code {
-  font-family: source-code-pro, monospace;
+  font-family: "fira mono", monospace;
   font-size: .92em;
 }
 
