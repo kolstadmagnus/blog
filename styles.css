@@ -244,7 +244,13 @@ i,
 span.medium,
 span.black,
 span.smcp,
-code {
+code, 
+
+/* nor headlines! */
+h1,
+h2,
+h3,
+h4 {
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
