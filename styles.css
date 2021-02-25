@@ -244,7 +244,7 @@ i,
 span.medium,
 span.black,
 span.smcp,
-code, {
+code {
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
