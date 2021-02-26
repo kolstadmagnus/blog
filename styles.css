@@ -241,10 +241,11 @@ em,
 strong,
 b,
 i,
-span.medium,
-span.black,
-span.smcp,
-code {
+.medium,
+.black,
+.smcp,
+code,
+.hide-on-mobile {
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
