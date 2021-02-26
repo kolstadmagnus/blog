@@ -412,6 +412,10 @@ p#signature,
     text-align: left;
     margin: 0;
   }
+
+  .hide-on-mobile {
+    display: none;
+  }
 }
 
 .about {
