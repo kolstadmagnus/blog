@@ -71,6 +71,10 @@ article {
     margin: 1.3rem;
     padding: 0;
   }
+
+  .hide-on-mobile {
+    display: none;
+  }
 }
 
 
