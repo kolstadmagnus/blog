@@ -60,14 +60,14 @@ body {
 LAYOUT
 ====== */
 
-.wrapper {
+article {
   margin: 0 auto;
   padding: 4rem 0 0 0;
   max-width: 28rem; /* line length */
 }
 
 @media all and (max-width: 520px) {
-  .wrapper {
+  article {
     margin: 1.3rem;
     padding: 0;
   }
@@ -122,17 +122,6 @@ span.arrow {
 
 /* small caps */ 
 span.smcp {
-  font-variant: small-caps;
-  letter-spacing: 0.05em;
-  text-transform: lowercase; /* no first caps with small caps! */
-  font-family: inherit;
-  font-size: .95em;
-}
-
-/* dates on index */
-.date {
-  margin: 0 0 .6em 0;
-  font-size: 0.96em;
   font-variant: small-caps;
   letter-spacing: 0.05em;
   text-transform: lowercase; /* no first caps with small caps! */
@@ -353,106 +342,6 @@ aside {
   margin-top: 1em; /* too much space between h3 and lists in article boxes */
 }
 
-.byline,
-.byline-after {
-  display: flex;
-  justify-content: space-between;
-}
-
-.byline {
-  border-bottom: 1px solid currentColor;
-  margin: .5rem 0 1.5rem 0;
-  padding-bottom: .4rem;
-}
-
-.byline-after {
-  border-bottom: 1px solid #ccc;
-  margin: 2.5rem 0 .5rem 0;
-  padding-bottom: .4rem;
-}
-
-.byline > p,
-p#signature,
-.byline-after > p {
-  flex-direction: row;
-
-  text-transform: lowercase;
-  font-variant: small-caps;
-  line-height: 1.35;
-  text-align: right;
-  font-size: 0.9em;
-  letter-spacing: 0.06em;
-
-  margin: 1.5em 0 0 0;
-  padding: 0;
-}
-
-.byline p,
-.byline-after p {
-  font-family: source-sans-pro;
-  color: #454545;
-}
-
-.byline-after > p {
-  color: #383838;
-}
-
-@media all and (max-width: 520px) {
-  .byline,
-  .byline-after {
-    display: block;
-  }
-
-  .byline > p,
-  .byline-after > p {
-    text-align: left;
-    margin: 0;
-  }
-
-  .hide-on-mobile {
-    display: none;
-  }
-}
-
-.about {
-  display: flex;
-  justify-content: flex-start;
-  border-top: 1px solid #ccc;
-
-  padding-top: 1.6rem;
-  margin: 1.7rem 0 0 0;
-}
-
-.about img {
-  width: 54px;
-  height: 54px;
-  margin: 0;
-  margin-right: 1.5rem;
-}
-
-.about > p {
-  line-height: 1.25;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  letter-spacing: .06em;
-  font-size: .86em;
-  font-family: source-sans-pro;
-  color: #383838;
-}
-
-
-/* bibliography */
-.bibliography ul {
-  list-style: none;
-  margin: 0 0 1em 0;
-  padding: 0;
-}
-
-.bibliography ul li {
-  padding: 0;
-  margin: 0 0 0.7em 0;
-}
-
 
 
 /* ======
@@ -484,13 +373,16 @@ NAVIGATION
 
 /* bottom navbar */
 nav {
-  margin: 3.5rem 0 0 0;
   padding: .7rem 0 1.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   
   border-top: 1px solid #6B6E7A;
+
+  max-width: 28rem;
+  margin: 0 auto;
+  margin-top: 3.5rem;
 }
 
 nav a {
@@ -510,3 +402,27 @@ nav > div {
 .previous { text-align: left; }
 .home { text-align: center; }
 .next { text-align: right; }
+
+
+.date-and-tag {
+  margin: 0;
+  padding: 0;
+}
+
+p.date {
+  font-size: .86em;
+  margin: 0;
+}
+
+p.tag {
+  font-size: .62em;
+  border: 1px solid #181818;
+  color: black;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: .2rem .3rem .1rem .3rem;
+  font-family: source-sans-pro;
+  letter-spacing: .03em;
+  border-radius: 4px;
+  margin: .6rem .1rem .6rem 0;
+}
