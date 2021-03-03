@@ -475,8 +475,11 @@ nav a {
 
 nav a.home {
   border-bottom: 1px solid #6B6E7A;
-  padding-bottom: .6rem;
-  margin-bottom: .6rem;
+  padding-bottom: .7rem;
+  margin-bottom: .7rem;
 
   font-size: 1em;
+  font-family: "fira sans", sans-serif;
+  font-weight: 500;
+  color: #5A5959;
 }
