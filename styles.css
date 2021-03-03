@@ -466,6 +466,12 @@ nav {
   margin-top: 3.5rem;
 }
 
+@media all and (max-width: 520px) {
+  nav {
+    padding: 1.4rem;
+  }
+}
+
 nav a {
   margin-bottom: .2rem;
   font-family: source-sans-pro;
