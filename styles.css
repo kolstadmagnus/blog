@@ -60,14 +60,16 @@ body {
 LAYOUT
 ====== */
 
-article {
+article,
+.wrapper /* index */ {
   margin: 0 auto;
   padding: 4rem 0 0 0;
   max-width: 28rem; /* line length */
 }
 
 @media all and (max-width: 520px) {
-  article {
+  article,
+  .wrapper {
     margin: 1.3rem;
     padding: 0;
   }
@@ -106,6 +108,12 @@ li {
   font-family: source-serif-pro;
 }
 
+/* intro */
+article > p:first-of-type {
+  margin-top: 0.6rem;
+  margin-bottom: 1em;
+  font-size: 115%;
+}
 
 
 /* CHARACTER STYLES */
@@ -294,12 +302,6 @@ ol li:before {
 ARTICLE ELEMENTS
 in chronological order
 ====== */
-
-article > p:first-of-type {
-  margin-top: 0.6rem;
-  margin-bottom: 1em;
-  font-size: 115%;
-}
 
 .byline,
 .byline-after {
