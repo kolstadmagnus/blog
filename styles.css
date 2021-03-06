@@ -473,6 +473,7 @@ nav {
 @media all and (max-width: 520px) {
   nav {
     padding: 1.4rem 1.4rem 2.4rem 1.4rem;
+    margin-top: 2.5rem;
   }
 }
 
